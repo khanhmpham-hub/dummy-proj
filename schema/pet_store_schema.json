@@ -46,5 +46,5 @@
       "enum": ["available", "pending", "sold"]
     }
   },
-  "required": ["id", "category", "name", "photoUrls", "tags", "status"]
+  "required": ["id", "tags", "status"]
 }
