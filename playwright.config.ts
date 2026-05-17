@@ -1,4 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
+import './utils/extend_expect';
+import Ajv from "ajv";
 
 /**
  * Read environment variables from file.
